@@ -13,10 +13,5 @@ module.exports = function(app) {
           res.json(friendData);
      });
 
-     /*app.post('/api/clear', function(req, res){
-		// Empty out the arrays of data
-		friendData = [];
-		console.log(friendData);
-	});*/
 
 };
